@@ -18,7 +18,7 @@ Make sure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone git@github.com:rajibsutradhartonmoy/task-20-06-24.git
+   (https://github.com/codewithpulok/task-page.git)
    cd your-repo-name
    ```
 
