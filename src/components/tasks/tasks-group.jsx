@@ -4,16 +4,16 @@ import { FormCheckbox } from "../forms";
 import TasksItem from "./tasks-item";
 
 /**
-//  * @param {TasksGroup.propTypes} props
-//  * @returns {JSX.Element}
-//  */
-// export const TasksGroup = (props) => {
-//   const { taskGroup, updateTask, updateTaskGroup } = props;
+ * @param {TasksGroup.propTypes} props
+ * @returns {JSX.Element}
+ */
+export const TasksGroup = (props) => {
+  const { taskGroup, updateTask, updateTaskGroup } = props;
 
-//   const isCompleted =
-//     Array.isArray(taskGroup.tasks) || taskGroup.tasks?.length
-//       ? taskGroup.tasks.every((task) => task.isCompleted === true)
-//       : false;
+  const isCompleted =
+    Array.isArray(taskGroup.tasks) || taskGroup.tasks?.length
+      ? taskGroup.tasks.every((task) => task.isCompleted === true)
+      : false;
 
   return (
     <li className="tasks-group">
